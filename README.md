@@ -10,6 +10,8 @@ Shell script to gather postgresql logs. You have to execute the command as root 
 ./logs_collector.sh <destination_file>
 ```
 
+logs_collector.sh is stored in this repo.
+
 ## pg_gather
 
 Sql to generate data needed by pg_gather.
