@@ -7,7 +7,7 @@ Scripts and tools to collect PG data
 Shell script to gather postgresql logs. You have to execute the command as root on the server that runs pg.
 
 ``` shell
-./logs_collector.sh <detination_file>
+./logs_collector.sh <destination_file>
 ```
 
 ## pg_gather
@@ -21,6 +21,7 @@ psql <connection_parameters_if_any> -X -f gather.sql | gzip > out.tsv.gz
 ```
 
 More information here: [Github jobinau](https://github.com/jobinau/pg_gather)
+
 pg_gather written by Jobin Augustine.
 
 ## Consulting scripts
